@@ -1,0 +1,20 @@
+useEffect will handel side effect of state
+
+side Effects are operations that affects other parts of the application out side the scope of the current function 
+function data from db/api 
+setting up timer 
+
+usseEffect use two arguments 
+1. Callback function thois function runs after the component render
+2.dependancy array (optional): its controls when the effect should runs
+
+[] runes only oneces on [mount]
+[a,b] changes
+
+what is component mount ?
+In react mounting is the process of creating and inserting the component in to the dom for the first time the component first apperes on the screen 
+componentis creating  and added to the dom
+
+updating component is render [states and props change]
+
+unmounting : the component remove from the dom

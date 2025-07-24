@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card {
+      width: 20rem;
+    margin-left: 10%;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  animation: scroll linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 40%;
+}
+.product-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card img {
+  padding: 10px 40px;
+  height: 200px;
+  object-fit: auto;
+}
+
+.product-card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card .card-text {
+  flex: 1;
+}
+
+.product-card .btn {
+  margin-top: auto;
+}
+
+@keyframes scroll {
+  from {
+    opacity: 0;
+    scale: 0.5;
+    transform: translateY(200px);
+  }
+  to {
+    opacity: 1;
+    /* scale: 1; */
+  }
+}

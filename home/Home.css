@@ -1,0 +1,17 @@
+.hero-img {
+  width: 15rem;
+  margin-right: 10rem;
+  animation: float 3s ease infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px) ;
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
